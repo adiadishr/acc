@@ -21,7 +21,7 @@ const sections = [
     },
     {
         id: 2,
-        title: "Hackathon",
+        title: "Ideathon",
         image: "/images/1.png",
         content: [
             "Event Type: Inter-college competition",

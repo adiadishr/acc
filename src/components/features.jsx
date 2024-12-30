@@ -69,7 +69,7 @@ export const BentoCard = ({ src, title, description }) => {
                 <div>
                     <h1 className="bento-title special-font">{title}</h1>
                     {description && (
-                        <p className="mt-3 max-w-64 text-xs md:text-base">{description}</p>
+                        <p className="mt-3 max-w-96 text-xs md:text-base">{description}</p>
                     )}
                 </div>
 
@@ -93,7 +93,7 @@ const Features = () => (
                         Proposed Coding Tournament: Ideathon
                     </li>
                     <li>
-                        Proposed Gaming Tournament: Pubg Mobile and PES
+                        Proposed Gaming Tournament: Pubg Mobile and Stumble Guys
                     </li>
                     {/* <li>
                             Estimated Date: 1st week of January, 2025
@@ -109,7 +109,7 @@ const Features = () => (
                             Ideathon
                         </>
                     }
-                    description="An experience blending gaming and coding, where skills in both worlds turn into a rewarding adventure."
+                    description="An experience that seeks to innovate solutions through collaboration, where teamwork & creativity is fostered in an intense problem-solving and programming sesison. Opportunities for networking & industry exposure, and acts as a gateway for career opportunities by providing hands-on experience."
                 />
             </BentoTilt>
 
@@ -122,7 +122,7 @@ const Features = () => (
                                 Player Unknown Battle Grounds
                             </>
                         }
-                        description="a battle royale game where players fight to be the last one standing. Up to 100 players parachute onto an island, scavenging for weapons, supplies, and vehicles"
+                        description="A battle royale game where players fight to be the last one standing. Up to 100 players parachute onto an island, scavenging for weapons, supplies, and vehicles"
 
                     />
                 </BentoTilt>
@@ -142,8 +142,8 @@ const Features = () => (
 
                 <BentoTilt className="bento-tilt_2">
                     <div className="flex size-full flex-col justify-between bg-gradient-to-br from-violet-950 to-sky-400 p-5">
-                        <h1 className="bento-title max-w-64 text-white">
-                            Action Packed Engergetic Atmosphere
+                        <h1 className="bento-title max-w-64 !text-5xl text-white">
+                            Action Packed & Engergetic
                         </h1>
                     </div>
                 </BentoTilt>
