@@ -59,7 +59,7 @@ export default function BasketballPage() {
             <div className="max-w-7xl mx-auto px-4 py-8">
                 <div className="mb-8">
                     <button
-                        onClick={() => router.push('/')}
+                        onClick={() => router.push('/#map')}
                         className="inline-flex items-center px-4 py-2 border border-transparent text-sm font-medium rounded-md text-gray-700 bg-gray-100 hover:bg-gray-200 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-500 transition-colors"
                     >
                         <ArrowLeft className="w-4 h-4 mr-2" />

@@ -49,12 +49,12 @@ export default function Budget() {
                     <TableBody>
                         <TableRow>
                             <TableCell className="font-medium">Total Budget</TableCell>
-                            <TableCell className="text-center">Rs. 884,950</TableCell>
+                            <TableCell className="text-center font-medium">Rs. 884,950</TableCell>
                         </TableRow>
                         {data.map((data) => (
                             <TableRow key={data.particulars}>
                                 <TableCell className="font-medium">{data.particulars}</TableCell>
-                                <TableCell className="text-center">{formatCurrency(data.quantity)}</TableCell>
+                                <TableCell className="text-center">({formatCurrency(data.quantity)})</TableCell>
                             </TableRow>
                         ))}
                     </TableBody>
