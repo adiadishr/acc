@@ -95,9 +95,9 @@ const Features = () => (
                     <li>
                         Proposed Gaming Tournament: Pubg Mobile and Stumble Guys
                     </li>
-                    {/* <li>
-                            Estimated Date: 1st week of January, 2025
-                        </li> */}
+                    <li>
+                        Estimated Date: 24th, 25th, 26th of January, 2025
+                    </li>
                 </ul>
             </div>
 

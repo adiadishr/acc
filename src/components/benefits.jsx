@@ -43,7 +43,7 @@ const benefits = [
 ]
 
 export default function ACCBenefits() {
-    const [activeIndex, setActiveIndex] = useState(null);
+    const [activeIndex, setActiveIndex] = useState(0);
     const [currentImage, setCurrentImage] = useState(0);
 
     const images = [
