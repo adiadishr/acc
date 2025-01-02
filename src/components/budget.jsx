@@ -43,13 +43,13 @@ export default function Budget() {
                     <TableHeader>
                         <TableRow>
                             <TableHead className="w-[350px] font-bold bg-neutral-700 text-white">Particulars</TableHead>
-                            <TableHead className="font-bold text-center bg-neutral-700 text-white">Amount</TableHead>
+                            <TableHead className="font-bold text-center text-white bg-neutral-700">Amount</TableHead>
                         </TableRow>
                     </TableHeader>
                     <TableBody>
                         <TableRow>
                             <TableCell className="font-medium">Total Budget</TableCell>
-                            <TableCell className="text-center font-medium">Rs. 884,950</TableCell>
+                            <TableCell className="font-medium text-center">Rs. 887,400</TableCell>
                         </TableRow>
                         {data.map((data) => (
                             <TableRow key={data.particulars}>
@@ -61,7 +61,7 @@ export default function Budget() {
                     <TableFooter>
                         <TableRow>
                             <TableCell className="font-bold text-black w-[350px]">Total</TableCell>
-                            <TableCell className="font-bold text-center text-black">Rs. 539,250</TableCell>
+                            <TableCell className="font-bold text-center text-black">Rs. 541,700</TableCell>
                         </TableRow>
                     </TableFooter>
                 </Table>
